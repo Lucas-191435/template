@@ -21,7 +21,7 @@ app.use('/', routes)
 
 app.get('/', (req: Request, res: Response) => {
   res.status(200).json({
-    name: 'PokeAPI',
+    name: 'tempalteAPI',
     // version: process.env.npm_package_version,
     // env: process.env.ENVIRONMENT
   })
